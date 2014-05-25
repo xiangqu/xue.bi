@@ -1,0 +1,31 @@
+{
+  "name": "wise",
+  "version": "0.0.2",
+  "description": "wise site scaffold",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production forever start index.js",
+    "stop": "forever stop index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demohi/wise.git"
+  },
+  "keywords": [
+    "scaffold"
+  ],
+  "author": "mdemo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demohi/wise/issues"
+  },
+  "homepage": "https://github.com/demohi/wise",
+  "dependencies": {
+    "koa": "^0.5.5",
+    "koa-middlewares": "^0.1.3",
+    "koa-hbs": "^0.4.4",
+    "lodash": "^2.4.1",
+    "co-mongoose": "*"
+  }
+}
